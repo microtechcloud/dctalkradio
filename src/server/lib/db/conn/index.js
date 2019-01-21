@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 if(process.env.NODE_ENV.toLowerCase()==="development")
     mongoose.connect(process.env.MONGOOSE_URI_DEV,{useNewUrlParser:true});
 if(process.env.NODE_ENV.toLowerCase()==="production")
-    mongoose.connect(process.env.MONGOOSE_URI_DEV,{useNewUrlParser:true});
+    mongoose.connect(process.env.MONGOOSE_URI_PRO,{useNewUrlParser:true});
 const db = mongoose.connection;
 
 //check any errors on database startup
