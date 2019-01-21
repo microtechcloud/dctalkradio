@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <%- include("./partials/head/_metadata")%>
+
+    <%- include("./partials/head/_title")%>
+  
+    <%- include("./partials/head/_links")%>
+
+</head>
+
+<body>
+  <!-- Preloader -->
+  <%- include("./partials/body/_preloader")%>
+  
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Main Header Start -->
+      <%- include("./partials/body/_main_header")%>
+  </header>
+
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title mt-70">Podcasts</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Podcasts</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- ***** Featured Music Area Start ***** -->
+  <div class="poca-featured-music-area mt-50">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="poca-music-area box-shadow d-flex align-items-center flex-wrap border" data-animation="fadeInUp" data-delay="900ms">
+            <div class="poca-music-thumbnail">
+              <img src="img/dctalkradio/sam-front.jpg" alt="">
+            </div>
+            <div class="poca-music-content">
+              <span class="music-published-date">January 19, 2019</span>
+              <h2>The BreakFast Direct Show</h2>
+              <div class="music-meta-data">
+                <p>By <a href="#" class="music-author">The A - Team</a> | <a href="#" class="music-catagory">MicroTech</a> | <a href="#" class="music-duration">-</a></p>
+              </div>
+              <!-- Music Player -->
+              <div class="poca-music-player">
+                <audio preload="auto" controls>
+                  <source src="http://192.168.1.91:8000/dctalkradio-main-stream.mp3">
+                </audio>
+              </div>
+              <!-- Likes, Share & Download -->
+              <div class="likes-share-download d-flex align-items-center justify-content-between">
+                <!-- <a href="#"><i class="fa fa-heart" aria-hidden="true"></i> Like (29)</a> -->
+                <!-- <div>
+                  <a href="#" class="mr-4"><i class="fa fa-share-alt" aria-hidden="true"></i> Share(04)</a>
+                  <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Download (12)</a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Featured Music Area End ***** -->
+
+  <!-- ***** Latest Episodes Area Start ***** -->
+  <section class="poca-latest-epiosodes section-padding-80">
+    <div class="container">
+      <div class="row">
+        <!-- Section Heading -->
+        <div class="col-12">
+          <div class="section-heading text-center">
+            <h2>Latest Episodes</h2>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects Menu -->
+    <div class="container">
+      <div class="poca-projects-menu mb-30 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="text-center portfolio-menu">
+          <button class="btn active" data-filter="*">All</button>
+          <button class="btn" data-filter=".entre">Entrepreneurship</button>
+          <button class="btn" data-filter=".media">Media</button>
+          <button class="btn" data-filter=".tech">Tech</button>
+          <button class="btn" data-filter=".tutor">Tutorials</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row poca-portfolio">
+
+        <!-- Single gallery Item -->
+        
+
+        <!-- Single gallery Item -->
+        
+
+        <!-- Single gallery Item -->
+     
+
+        <!-- Single gallery Item -->
+     
+
+        <!-- Single gallery Item -->
+    
+
+        <!-- Single gallery Item -->
+
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="#" class="btn poca-btn mt-70">No Episodes Uploaded Yet</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Latest Episodes Area End ***** -->
+
+  <!-- ***** Newsletter Area Start ***** -->
+  <section class="poca-newsletter-area bg-img bg-overlay pt-50 jarallax" style="background-image: url(img/bg-img/15.jpg);">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Newsletter Content -->
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-content mb-50">
+            <h2>Sign Up To Newsletter</h2>
+            <h6>Subscribe to receive info on our latest news and episodes</h6>
+          </div>
+        </div>
+        <!-- Newsletter Form -->
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-form mb-50">
+            <form action="#" method="post">
+              <input type="email" name="nl-email" class="form-control" placeholder="Your Email">
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Newsletter Area End ***** -->
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area section-padding-80-0">
+      <div class="container">
+        <div class="row">
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">About Us</h4>
+  
+              <p>Your Issue Our Concern</p>
+            <div class="copywrite-content">
+                <p>&copy; 
+  
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | powered with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.microtechcloudsolutions.co.zm" target="_blank">MicroTech Cloud Solutions</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Categories</h4>
+  
+              <!-- Catagories Nav -->
+              <nav>
+                <ul class="catagories-nav">
+                  <li><a href="podcasts?category=business">Business</a></li>
+                  <li><a href="podcasts?category=health">Health</a></li>
+                  <li><a href="podcasts?category=entertainment">Entertainment</a></li>
+                  <li><a href="podcasts?category=technology">Technology</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Lastest Episodes</h4>
+  
+              <!-- Single Latest Episodes -->
+              <!-- <div class="single-latest-episodes">
+                <p class="episodes-date">December 9, 2018</p>
+                <a href="#" class="episodes-title">Episode 205 - See Ya In Three!</a>
+              </div> -->
+              <!-- Single Latest Episodes -->
+              <!-- <div class="single-latest-episodes">
+                <p class="episodes-date">December 8, 2018</p>
+                <a href="#" class="episodes-title">Episode 204 - See Ya In Two!</a>
+              </div> -->
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Follow Us</h4>
+              <!-- Social Info -->
+              <div class="footer-social-info">
+                <a href="https://www.facebook.com/DCTalkRadio" target="_blank" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/DC_TalkRadio?s=08
+                " class="twitter" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <!-- <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a> -->
+                <a href="https://www.instagram.com/dc_talkradio" target="_blank" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                <!-- <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a> -->
+              </div>
+              <!-- App Download Button -->
+              <div class="app-download-button mt-30">
+                <!-- <a href="#"><img src="./img/core-img/app-store.png" alt=""></a> -->
+                <!-- <a href="#"><img src="./img/core-img/google-play.png" alt=""></a> -->
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <%- include("./partials/alljs")%>
+
+</body>
+
+</html>

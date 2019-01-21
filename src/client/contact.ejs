@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+    <%- include("./partials/head/_metadata")%>
+
+    <%- include("./partials/head/_title")%>
+  
+    <%- include("./partials/head/_links")%>
+</head>
+
+<body>
+
+   <!-- Preloader -->
+   <%- include("./partials/body/_preloader")%>
+  
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area">
+    <!-- Main Header Start -->
+      <%- include("./partials/body/_main_header")%>
+  </header>
+ 
+  <!-- ***** Header Area End ***** -->
+
+  <!-- ***** Breadcrumb Area Start ***** -->
+  <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/2.jpg);">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12">
+          <h2 class="title mt-70">Contact</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="breadcumb--con">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contact</li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Breadcrumb Area End ***** -->
+
+  <!-- ***** Contact Area Start ***** -->
+  <section class="poca-contact-area mt-50 mb-100">
+    <div class="container">
+      <!-- <div class="row">
+        <div class="col-12">
+          <div class="google-maps mb-100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11956.9355465873!2d24.0768412544878!3d56.9550599906977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfb0e5073ded%3A0x400cfcd68f2fe30!2z4Kaw4Ka_4KaX4Ka-LCDgprLgp43gpq_gpr7gpp_gp43gpq3gpr_gpoY!5e0!3m2!1sbn!2sbd!4v1543911160102"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row">
+        <!-- Contact Information -->
+        <div class="col-12 col-md-6">
+          <div class="contact-information">
+            <div class="contact-heading mb-50">
+              <h2>Contact Info</h2>
+              <h6>We will be happy to assist you with any question</h6>
+              <!-- <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna. Integer vehicula mauris libero, at molestie eros imperdiet sit amet. Suspendisse mattis ante sit amet ante.</p> -->
+            </div>
+
+
+            <h5>Address: Nyumbayanga, Lusaka.</h5>
+            <h5>Phone: +260950482560</h5>
+            <h5>Email: info@dctalkradio.co.zm</h5>
+            <!-- <h5>Open Hours: Mon - Fri: 8:00 AM to 6:00 PM</h5> -->
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-12 col-md-6">
+          <div class="contact-form">
+            <div class="contact-heading">
+              <h2>Get In Touch</h2>
+              <h5>Don't hesitate to contact us</h5>
+            </div>
+            <!-- Form -->
+            <form id="contactform" action="#" method="post">
+              <div class="row">
+                <div class="col-12">
+                  <input id="guestnanme" type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
+                </div>
+                <div class="col-12">
+                  <input id="guestemail" type="email" name="message-email" class="form-control mb-30" placeholder="Your Email">
+                </div>
+                <div class="col-12">
+                  <textarea id="guestmessage" name="message" class="form-control mb-30" placeholder="Your Message"></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" id="_submitmessage" class="btn poca-btn">Send Message</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Contact Area End ***** -->
+
+  <!-- ***** Newsletter Area Start ***** -->
+  <section class="poca-newsletter-area bg-img bg-overlay pt-50 jarallax" style="background-image: url(img/bg-img/15.jpg);">
+    <div class="container">
+      <div class="row align-items-center">
+        <!-- Newsletter Content -->
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-content mb-50">
+            <h2>Sign Up To Newsletter</h2>
+            <h6>Subscribe to receive info on our latest news and episodes</h6>
+          </div>
+        </div>
+        <!-- Newsletter Form -->
+        <div class="col-12 col-lg-6">
+          <div class="newsletter-form mb-50">
+            <form action="#" method="post">
+              <input type="email" name="nl-email" class="form-control" placeholder="Your Email">
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ***** Newsletter Area End ***** -->
+
+  <!-- ***** Footer Area Start ***** -->
+  <footer class="footer-area section-padding-80-0">
+      <div class="container">
+        <div class="row">
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">About Us</h4>
+  
+              <p>Your Issue Our Concern</p>
+            <div class="copywrite-content">
+                <p>&copy; 
+  
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | powered with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.microtechcloudsolutions.co.zm" target="_blank">MicroTech Cloud Solutions</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Categories</h4>
+  
+              <!-- Catagories Nav -->
+              <nav>
+                <ul class="catagories-nav">
+                  <li><a href="podcasts?category=business">Business</a></li>
+                  <li><a href="podcasts?category=health">Health</a></li>
+                  <li><a href="podcasts?category=entertainment">Entertainment</a></li>
+                  <li><a href="podcasts?category=technology">Technology</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Lastest Episodes</h4>
+  
+              <!-- Single Latest Episodes -->
+              <!-- <div class="single-latest-episodes">
+                <p class="episodes-date">December 9, 2018</p>
+                <a href="#" class="episodes-title">Episode 205 - See Ya In Three!</a>
+              </div> -->
+              <!-- Single Latest Episodes -->
+              <!-- <div class="single-latest-episodes">
+                <p class="episodes-date">December 8, 2018</p>
+                <a href="#" class="episodes-title">Episode 204 - See Ya In Two!</a>
+              </div> -->
+            </div>
+          </div>
+  
+          <!-- Single Footer Widget -->
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single-footer-widget mb-80">
+              <!-- Widget Title -->
+              <h4 class="widget-title">Follow Us</h4>
+              <!-- Social Info -->
+              <div class="footer-social-info">
+                <a href="https://www.facebook.com/DCTalkRadio" target="_blank" class="facebook" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/DC_TalkRadio?s=08
+                " class="twitter" target="_blank" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <!-- <a href="#" class="pinterest" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a> -->
+                <a href="https://www.instagram.com/dc_talkradio" target="_blank" class="instagram" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+                <!-- <a href="#" class="youtube" data-toggle="tooltip" data-placement="top" title="YouTube"><i class="fa fa-youtube-play"></i></a> -->
+              </div>
+              <!-- App Download Button -->
+              <div class="app-download-button mt-30">
+                <!-- <a href="#"><img src="./img/core-img/app-store.png" alt=""></a> -->
+                <!-- <a href="#"><img src="./img/core-img/google-play.png" alt=""></a> -->
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </footer>
+  <!-- ***** Footer Area End ***** -->
+
+  <!-- ******* All JS ******* -->
+  <%- include("./partials/alljs")%>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "http-errors": "^1.7.1",
+    "jsaudio": "^1.0.1",
+    "jsonwebtoken": "^8.3.0",
+    "libao": "^0.0.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.5",
+    "morgan": "^1.9.1",
+    "node-portaudio": "^0.4.9",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.0",
+    "soundengine": "^1.3.1"
+  },
+  "name": "dctalkradio",
+  "version": "1.0.0",
+  "description": "DCTalkRadio App",
+  "main": "app.js",
+  "author": "leemlwando <leemlwando@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "mocha",
+    "start": "export NODE_ENV=production && node ./www",
+    "dev": "export NODE_ENV=development && nodemon ./www"
+  }
+}
