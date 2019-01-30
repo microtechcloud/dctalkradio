@@ -15,7 +15,7 @@
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0",
-    "request": "^2.88.0",
+    "request": "^2.88.0"
   },
   "name": "dctalkradio",
   "version": "1.0.0",
@@ -26,7 +26,7 @@
   "private": false,
   "scripts": {
     "test": "mocha",
-    "start": "export NODE_ENV=production && node ./www",
+    "start": "export NODE_ENV=production && pm2 ./www --name=\"main\"",
     "dev": "export NODE_ENV=development && nodemon ./www"
   }
 }
