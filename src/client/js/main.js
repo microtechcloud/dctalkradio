@@ -75,10 +75,12 @@
         let _guestmessage = document.getElementById("guestmessage");
         let _submitmessage = document.getElementById("_submitmessage");
         let _guestform = document.getElementById("contactform");
+        let _subscribe = document.getElementById("subscribe_");
 
         //disable form
         _guestform.addEventListener("submit",function(e){e.preventDefault()});
-        
+        _subscribe.addEventListener("submit",function(e){e.preventDefault()});
+    
         _submitmessage.addEventListener("click",function(e){
             fetch("http://dctalkradio.co.zm/contact-us?guest=true").then(res=>{
                 _guestname.value = "";
